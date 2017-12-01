@@ -6,4 +6,5 @@ typedef VRPose = {
     var linearAcceleration(default,null) : Float32Array;
     var orientation(default,null) : Float32Array;
     var angularAcceleration(default,null) : Float32Array;
+    var angularVelocity(default,null) : Float32Array;
 }
