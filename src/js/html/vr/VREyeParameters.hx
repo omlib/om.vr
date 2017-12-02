@@ -1,4 +1,4 @@
-package js.html;
+package js.html.vr;
 
 typedef VREyeParameters = {
     var offset(default,null) : Float;

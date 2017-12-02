@@ -1,4 +1,4 @@
-package js.html;
+package js.html.vr;
 
 typedef VRDisplayCapabilities = {
     var canPresent(default,null) : Bool;

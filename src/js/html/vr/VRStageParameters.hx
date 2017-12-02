@@ -1,4 +1,4 @@
-package js.html;
+package js.html.vr;
 
 typedef VRStageParameters = {
     var sittingToStandingTransform(default,null) : Float32Array;

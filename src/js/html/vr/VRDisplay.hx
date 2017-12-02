@@ -1,7 +1,8 @@
-package js.html;
+package js.html.vr;
 
 import js.Promise;
 
+@:native("VRDisplay")
 extern class VRDisplay {
     var depthFar : Float;
     var depthNear : Float;

@@ -1,4 +1,4 @@
-package js.html;
+package js.html.vr;
 
 typedef VRPose = {
     var position(default,null) : Float32Array;

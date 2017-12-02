@@ -1,4 +1,4 @@
-package js.html;
+package js.html.vr;
 
 typedef VRFieldOfView = {
     var upDegrees(default,null) : Float;

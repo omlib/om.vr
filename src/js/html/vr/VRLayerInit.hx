@@ -1,4 +1,4 @@
-package js.html;
+package js.html.vr;
 
 typedef VRLayerInit = {
     var leftBounds(default,null) : Array<Float>;
