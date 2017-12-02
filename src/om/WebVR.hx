@@ -3,7 +3,7 @@ package om;
 import js.Promise;
 import js.html.VRDisplay;
 
-class VR {
+class WebVR {
 
     /**
         https://developer.mozilla.org/en-US/docs/Web/API/Navigator/getVRDisplays
@@ -12,4 +12,6 @@ class VR {
         return untyped navigator.getVRDisplays();
 
     }
+
+    //manage enter/exit
 }
