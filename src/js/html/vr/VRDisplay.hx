@@ -18,7 +18,8 @@ extern class VRDisplay {
     function resetPose() : Void;
     function cancelAnimationFrame( vrSceneFrame : Int ) : Void;
     function requestAnimationFrame( callback : Float->Void ) : Int;
-    function requestPresent( o : Dynamic ) : Promise<Dynamic>; //TODO
+    //function requestPresent( o : Dynamic ) : Promise<Dynamic>; //TODO
+    function requestPresent( o : Dynamic ) : Promise<Void>; //TODO
     function exitPresent() : Void;
     function submitFrame() : Void;
 }
